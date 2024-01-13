@@ -15,6 +15,7 @@ class CreateServicesTable extends Migration
     {
         Schema::create('services', function (Blueprint $table) {
             $table->id('id_Service');
+            $table->foreignId('id_TypeService')->constrained('type_services', 'id_TypeService');
             $table->string('nom_service');
             $table->text('description')->nullable();
             $table->decimal('tarif', 10, 2);

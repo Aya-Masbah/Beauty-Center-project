@@ -15,9 +15,9 @@ class CreateRendezVousesTable extends Migration
     {
         Schema::create('rendez_vouses', function (Blueprint $table) {
             $table->id('id_Rendezvous');
-            $table->foreignId('id_Client')->constrained('clients');
-            $table->foreignId('id_Employe')->constrained('employes');
-            $table->foreignId('id_Service')->constrained('services');
+            $table->foreignId('id_Client')->constrained('clients', 'id_Client');
+            $table->foreignId('id_Employe')->constrained('employes', 'id_Employe');
+            $table->foreignId('id_Service')->constrained('services', 'id_Service');
             $table->dateTime('date_rendezvous');
             $table->string('statut')->default('en_attente');
             $table->timestamps();

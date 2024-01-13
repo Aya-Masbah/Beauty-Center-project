@@ -15,7 +15,7 @@ class CreateEmployesTable extends Migration
     {
         Schema::create('employes', function (Blueprint $table) {
             $table->id('id_Employe');
-            $table->foreignId('compte_id')->constrained('comptes');
+            $table->foreignId('id_Compte')->constrained('comptes', 'id_Compte');
             $table->string('nom');
             $table->string('prenom');
             $table->string('numero_telephone')->nullable();

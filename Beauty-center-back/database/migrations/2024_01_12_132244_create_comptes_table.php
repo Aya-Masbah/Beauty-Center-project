@@ -14,7 +14,7 @@ class CreateComptesTable extends Migration
     public function up()
     {
         Schema::create('comptes', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_Compte');
             $table->string('username')->unique();
             $table->string('password');
             $table->string('role');
