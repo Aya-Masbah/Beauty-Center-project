@@ -26,36 +26,7 @@
             /* Couleur du texte du label */
         }
 
-        .form-control {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ced4da;
-            border-radius: 5px;
-            box-sizing: border-box;
-            color: black;
-            background-color: white;
-        }
-
-        .file-upload-default {
-            display: none;
-        }
-
-        .file-upload-info {
-            width: 100%;
-            margin-left: 10px;
-            box-sizing: border-box;
-        }
-
-        .file-upload-browse {
-            padding: 10px;
-            border: 1px solid #007bff;
-            color: white;
-            background-color: #ced4da;
-            /* Couleur de fond du bouton */
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
+        /* Styling for the buttons */
         .btn-submit {
             background-color: blue;
             color: white;
@@ -87,24 +58,34 @@
         @include('admin.navbar')
         <!-- partial -->
         <div class="container-fluid page-body-wrapper">
+
             <div class="container">
+                @if(session()->has('message'))
+                <div class="alert alert-success">
+                    <button type="button" class="close" data-dismiss="alert">
+                        X
+                    </button>
+                    {{session() ->get ( 'message' ) }}
+                </div>
+                @endif
 
                 <form action="{{url('upload_employee')}}" method="POST" enctype="multipart/form-data" class="mt-4">
+                    @csrf
                     <div class="form-group">
                         <label class="form-label" for="name">Employee Name:</label>
                         <input type="text" class="form-control" style="background-color: white; color:black;" id="name" name="name" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="num_telephone">Phone Number:</label>
-                        <input type="number" class="form-control" style="background-color: white; color:black;" id="num_telephone" name="num_telephone">
+                        <input type="number" class="form-control" style="background-color: white; color:black;" id="numero_telephone" name="numero_telephone" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="email">Email:</label>
-                        <input type="email" class="form-control" style="background-color: white; color:black;" id="email" name="email">
+                        <input type="email" class="form-control" style="background-color: white; color:black;" id="email" name="email" required>
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="service">Service:</label>
-                        <select id="service" name="service" class="form-control" style="background-color: white; color:black;">
+                        <select id="service" name="service" class="form-control" style="background-color: white; color:black;" required>
                             <option value="">--Select--</option>
                             <option value="haircut">Haircut</option>
                             <option value="manicure">Manicure</option>
@@ -114,13 +95,7 @@
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="file">Employee Image:</label>
-                        <input type="file" class="file-upload-default" id="file" name="file">
-                        <div class="input-group col-xs-12">
-                            <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
-                            <span class="input-group-append">
-                                <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
-                            </span>
-                        </div>
+                        <input type="file" content="Choose file" class="form-control" style="background-color: white; color:black;" id="file" name="file" required>
                     </div>
                     <div class="form-group">
                         <button type="submit" class="btn btn-submit">Submit</button>
