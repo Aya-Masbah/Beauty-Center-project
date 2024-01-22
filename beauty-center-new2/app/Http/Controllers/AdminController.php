@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Employee;
 
+use App\Models\Appointment;
+
 class AdminController extends Controller
 {
     public function addview()
@@ -28,5 +30,26 @@ class AdminController extends Controller
         $employee->save();
 
         return redirect()->back()->with('message', 'Employee Added Successfully');
+    }
+
+    public function showappointment(){
+        $data=appointment::all();
+        return view('admin.showappointment',compact('data'));
+    }
+
+    public function approved($id){
+        $data=appointment::find($id);
+        $data->status='approved';
+        $data->save();
+
+        return redirect()->back();
+    }
+
+    public function canceled($id){
+        $data=appointment::find($id);
+        $data->status='canceled';
+        $data->save();
+
+        return redirect()->back();
     }
 }
