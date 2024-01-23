@@ -37,3 +37,7 @@ Route::get('/showappointment', [AdminController::class, 'showappointment']);
 
 Route::get('/approved/{id}', [AdminController::class, 'approved']);
 Route::get('/canceled/{id}', [AdminController::class, 'canceled']);
+
+Route::get('/showemployee', [AdminController::class, 'showemployee']);
+
+Route::get('/deleteemployee/{id_Employe}', [AdminController::class, 'deleteemployee']);

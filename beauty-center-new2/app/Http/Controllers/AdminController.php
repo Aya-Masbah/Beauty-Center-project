@@ -52,4 +52,16 @@ class AdminController extends Controller
 
         return redirect()->back();
     }
+
+    public function showemployee(){
+        $data=employee::all();
+        return view('admin.showemployee',compact('data'));
+    }
+
+    public function deleteemployee($id_Employe){
+        $data=employee::find($id_Employe);
+        $data->delete();
+
+        return redirect()->back();
+    }
 }
