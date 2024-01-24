@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Employee;
+use App\Models\Appointment;
+
 
 class HomeController extends Controller
 {
@@ -33,5 +35,25 @@ class HomeController extends Controller
             $employee = employee::all();
             return view('user.home', compact('employee'));
         }
+    }
+
+    public function appointment(Request $request)
+    {
+        $data = new appointment;
+        $data->name = $request->input('name'); // Use input() method to retrieve form data
+        $data->email = $request->input('email');
+        $data->date = $request->input('date');
+        $data->phone = $request->input('phone');
+        $data->message = $request->input('message');
+        $data->employee = $request->input('employee');
+        $data->status = 'In progress';
+        if (Auth::id()) {
+
+            $data->user_id = Auth::user()->id;
+        }
+
+        $data->save();
+
+        return redirect()->back()->with('message', 'Appointment Request Successfull . We will contact you soon ');
     }
 }

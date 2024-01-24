@@ -31,3 +31,4 @@ Route::middleware([
 
 Route::get('/add_employee_view', [AdminController::class, 'addview']);
 Route::post('/upload_employee', [AdminController::class, 'upload']);
+Route::post('/appointment', [HomeController::class, 'appointment']);
