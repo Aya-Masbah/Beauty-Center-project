@@ -65,5 +65,23 @@
                 <span class="menu-title">Add Employees</span>
             </a>
         </li>
+
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="{{url('showappointment')}}">
+                <span class="menu-icon">
+                    <i class="mdi mdi-file-document-box"></i>
+                </span>
+                <span class="menu-title">Appointments</span>
+            </a>
+        </li>
+
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="{{url('showemployee')}}">
+                <span class="menu-icon">
+                    <i class="mdi mdi-file-document-box"></i>
+                </span>
+                <span class="menu-title">All Employees</span>
+            </a>
+        </li>
     </ul>
 </nav>

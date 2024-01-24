@@ -32,3 +32,13 @@ Route::middleware([
 Route::get('/add_employee_view', [AdminController::class, 'addview']);
 Route::post('/upload_employee', [AdminController::class, 'upload']);
 Route::post('/appointment', [HomeController::class, 'appointment']);
+
+
+Route::get('/showappointment', [AdminController::class, 'showappointment']);
+
+Route::get('/approved/{id}', [AdminController::class, 'approved']);
+Route::get('/canceled/{id}', [AdminController::class, 'canceled']);
+
+Route::get('/showemployee', [AdminController::class, 'showemployee']);
+
+Route::get('/deleteemployee/{id_Employe}', [AdminController::class, 'deleteemployee']);
