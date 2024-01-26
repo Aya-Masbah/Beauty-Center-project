@@ -24,7 +24,7 @@
     --info: #17a2b8;
     --warning: #ffc107;
     --danger: #dc3545;
-    --light: #f8f9fa;
+    --light: #bce0ff;
     --dark: #343a40;
     --breakpoint-xs: 0;
     --breakpoint-sm: 576px;
@@ -2992,8 +2992,8 @@ fieldset:disabled a.btn {
 
 .btn-light {
     color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    background-color: #bce0ff;
+    border-color: #bce0ff;
 }
 
 .btn-light:hover {
@@ -3013,8 +3013,8 @@ fieldset:disabled a.btn {
 .btn-light.disabled,
 .btn-light:disabled {
     color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    background-color: #bce0ff;
+    border-color: #bce0ff;
 }
 
 .btn-light:not(:disabled):not(.disabled):active,
@@ -3289,14 +3289,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-    color: #f8f9fa;
-    border-color: #f8f9fa;
+    color: #bce0ff;
+    border-color: #bce0ff;
 }
 
 .btn-outline-light:hover {
     color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    background-color: #bce0ff;
+    border-color: #bce0ff;
 }
 
 .btn-outline-light:focus,
@@ -3306,7 +3306,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-light.disabled,
 .btn-outline-light:disabled {
-    color: #f8f9fa;
+    color: #bce0ff;
     background-color: transparent;
 }
 
@@ -3314,8 +3314,8 @@ fieldset:disabled a.btn {
 .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
     color: #212529;
-    background-color: #f8f9fa;
-    border-color: #f8f9fa;
+    background-color: #bce0ff;
+    border-color: #bce0ff;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active:focus,
@@ -3662,7 +3662,7 @@ input[type="button"].btn-block {
 .dropdown-item:focus {
     color: #16181b;
     text-decoration: none;
-    background-color: #f8f9fa;
+    background-color: #bce0ff;
 }
 
 .dropdown-item.active,
@@ -5593,7 +5593,7 @@ a.badge-danger.focus {
 
 .badge-light {
     color: #212529;
-    background-color: #f8f9fa;
+    background-color: #bce0ff;
 }
 
 a.badge-light:hover,
@@ -5893,7 +5893,7 @@ a.badge-dark.focus {
     z-index: 1;
     color: #495057;
     text-decoration: none;
-    background-color: #f8f9fa;
+    background-color: #bce0ff;
 }
 
 .list-group-item-action:active {
@@ -7206,7 +7206,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #bce0ff !important;
 }
 
 a.bg-light:hover,
@@ -7300,7 +7300,7 @@ button.bg-dark:focus {
 }
 
 .border-light {
-    border-color: #f8f9fa !important;
+    border-color: #bce0ff !important;
 }
 
 .border-dark {
@@ -10567,7 +10567,7 @@ a.text-danger:focus {
 }
 
 .text-light {
-    color: #f8f9fa !important;
+    color: #bce0ff !important;
 }
 
 a.text-light:hover,

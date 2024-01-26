@@ -21,6 +21,9 @@
 
     <link rel="stylesheet" href="../assets/css/theme.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-qgokzg8XMtGhPbuFTwiA3jke0Hi90IBb6H2LWE+5guZ3o3/Nj1HzO+jFNr5uJWyeuhdc5yJK3r7Zi7yPr8ZWEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <style>
         .navbar-brand img {
             width: 200px;
@@ -118,23 +121,23 @@
                     <div class="col-md-4 py-3 py-md-0">
                         <div class="card-service wow fadeInUp">
                             <div class="circle-shape bg-secondary text-white">
-                                <span class="mai-chatbubbles-outline"></span>
+                                <span class="fas fa-cut"></span> <!-- FontAwesome hair-cutting icon -->
                             </div>
                             <p><span>Expert</span> Stylists</p>
                         </div>
                     </div>
                     <div class="col-md-4 py-3 py-md-0">
                         <div class="card-service wow fadeInUp">
-                            <div class="circle-shape bg-primary text-white">
-                                <span class="mai-shield-checkmark"></span>
+                            <div class="circle-shape bg-accent text-white">
+                                <span class="fas fa-spa"></span> <!-- FontAwesome spa icon -->
                             </div>
                             <p><span>Relaxing</span> Spa Treatments</p>
                         </div>
                     </div>
                     <div class="col-md-4 py-3 py-md-0">
                         <div class="card-service wow fadeInUp">
-                            <div class="circle-shape bg-accent text-white">
-                                <span class="mai-basket"></span>
+                            <div class="circle-shape bg-primary text-white">
+                                <span class="fas fa-makeup-brush"></span> <!-- FontAwesome makeup brush icon -->
                             </div>
                             <p><span>Professional</span> Makeup Artists</p>
                         </div>
@@ -142,7 +145,6 @@
                 </div>
             </div>
         </div> <!-- .page-section -->
-
         <div class="page-section pb-0">
             <div class="container">
                 <div class="row align-items-center">
