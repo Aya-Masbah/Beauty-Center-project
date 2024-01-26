@@ -33,7 +33,7 @@
 
         <div class="container-fluid page-body-wrapper">
             <div style="padding-top: 100px; text-align: center;">
-            <table>
+                <table>
                     <tr style="background-color:black;">
                         <th style="padding:10px">Image</th>
                         <th style="padding:10px">Employee name</th>
@@ -42,7 +42,7 @@
                         <th style="padding:10px">Service</th>
                         <th style="padding:10px">Delete</th>
                         <th style="padding:10px">Update</th>
-                        
+
                     </tr>
 
                     @foreach($data as $employee)
@@ -53,12 +53,12 @@
                         <td>{{$employee->email}}</td>
                         <td>{{$employee->service}}</td>
                         <td><a onclick="return confirm('are you sure to delete this')" class="btn btn-danger" href="{{url('deleteemployee',$employee->id_Employe)}}">Delete</a></td>
-                        <td><a class="btn btn-primary" href="">Update</a></td>
+                        <td><a class="btn btn-primary" href="{{url('updateemployee',$employee->id_Employe)}}">Update</a></td>
                     </tr>
                     @endforeach
             </div>
         </div>
-        
+
         <!-- container-scroller -->
         @include('admin.script')
 </body>

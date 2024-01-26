@@ -30,7 +30,7 @@
         <!-- partial -->
         @include('admin.navbar')
         <!-- partial -->
-        
+
         <div class="container-fluid page-body-wrapper">
             <div style="padding-top: 100px; text-align: center;">
                 <table>
@@ -38,7 +38,7 @@
                         <th style="padding:10px">Customer name</th>
                         <th style="padding:10px">Email</th>
                         <th style="padding:10px">Phone</th>
-                        <th style="padding:10px">Employe Name</th>
+                        <th style="padding:10px">Employee Name</th>
                         <th style="padding:10px">Date</th>
                         <th style="padding:10px">Message</th>
                         <th style="padding:10px">Status</th>
@@ -52,7 +52,7 @@
                         <td>{{$appoint->name}}</td>
                         <td>{{$appoint->email}}</td>
                         <td>{{$appoint->phone}}</td>
-                        <td>{{$appoint->employe}}</td>
+                        <td>{{$appoint->employee}}</td>
                         <td>{{$appoint->date}}</td>
                         <td>{{$appoint->message}}</td>
                         <td>{{$appoint->status}}</td>
@@ -68,7 +68,7 @@
                     @endforeach
                 </table>
             </div>
-         </div>
+        </div>
         <!-- container-scroller -->
         @include('admin.script')
 </body>

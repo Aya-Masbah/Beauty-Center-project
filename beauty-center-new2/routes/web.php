@@ -33,6 +33,9 @@ Route::get('/add_employee_view', [AdminController::class, 'addview']);
 Route::post('/upload_employee', [AdminController::class, 'upload']);
 Route::post('/appointment', [HomeController::class, 'appointment']);
 
+Route::get('/myappointment', [HomeController::class, 'myappointment'])->name('myappointment');
+
+Route::get('/cancel_appoint/{id}', [HomeController::class, 'cancel_appoint']);
 
 Route::get('/showappointment', [AdminController::class, 'showappointment']);
 
@@ -42,3 +45,7 @@ Route::get('/canceled/{id}', [AdminController::class, 'canceled']);
 Route::get('/showemployee', [AdminController::class, 'showemployee']);
 
 Route::get('/deleteemployee/{id_Employe}', [AdminController::class, 'deleteemployee']);
+
+Route::get('/updateemployee/{id_Employe}', [AdminController::class, 'updateemployee']);
+
+Route::post('/editemployee/{id_Employe}', [AdminController::class, 'editemployee']);
