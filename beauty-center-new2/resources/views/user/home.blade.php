@@ -9,7 +9,7 @@
 
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-    <title>One Health - Medical Center HTML5 Template</title>
+    <title>Beauty Center</title>
 
     <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -35,7 +35,7 @@
                         <div class="site-info">
                             <a href="#"><span class="mai-call text-primary"></span> +00 123 4455 6666</a>
                             <span class="divider">|</span>
-                            <a href="#"><span class="mai-mail text-primary"></span> mail@example.com</a>
+                            <a href="#"><span class="mai-mail text-primary"></span> beautyCenter@gmail.com</a>
                         </div>
                     </div>
                     <div class="col-sm-4 text-right text-sm">
@@ -52,7 +52,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="#"><span class="text-primary">One</span>-Health</a>
+                <a class="navbar-brand" href="#"><span class="text-primary">Beauty</span>-Center</a>
 
                 <form action="#">
                     <div class="input-group input-navbar">
@@ -76,7 +76,7 @@
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="doctors.html">Doctors</a>
+                            <a class="nav-link" href="doctors.html">Specialists</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blog.html">News</a>
@@ -108,57 +108,58 @@
     <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bg_image_1.jpg);">
         <div class="hero-section">
             <div class="container text-center wow zoomIn">
-                <span class="subhead">Let's make your life happier</span>
-                <h1 class="display-4">Healthy Living</h1>
-                <a href="#" class="btn btn-primary">Let's Consult</a>
+            <span class="subhead">Revel in Beauty and Wellness</span>
+            <h1 class="display-4">Discover Your Radiant Self</h1>
+            <a href="#" class="btn btn-primary">Consult with Our Experts</a>
             </div>
         </div>
     </div>
 
 
     <div class="bg-light">
-        <div class="page-section py-3 mt-md-n5 custom-index">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-4 py-3 py-md-0">
-                        <div class="card-service wow fadeInUp">
-                            <div class="circle-shape bg-secondary text-white">
-                                <span class="mai-chatbubbles-outline"></span>
-                            </div>
-                            <p><span>Chat</span> with a doctors</p>
-                        </div>
+    <div class="page-section py-3 mt-md-n5 custom-index">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card-service wow fadeInUp">
+                    <div class="circle-shape bg-secondary text-white">
+                        <span class="mai-scissors"></span>
                     </div>
-                    <div class="col-md-4 py-3 py-md-0">
-                        <div class="card-service wow fadeInUp">
-                            <div class="circle-shape bg-primary text-white">
-                                <span class="mai-shield-checkmark"></span>
-                            </div>
-                            <p><span>One</span>-Health Protection</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 py-3 py-md-0">
-                        <div class="card-service wow fadeInUp">
-                            <div class="circle-shape bg-accent text-white">
-                                <span class="mai-basket"></span>
-                            </div>
-                            <p><span>One</span>-Health Pharmacy</p>
-                        </div>
-                    </div>
+                    <p><span>Beauty</span> Services</p>
                 </div>
             </div>
-        </div> <!-- .page-section -->
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card-service wow fadeInUp">
+                    <div class="circle-shape bg-primary text-white">
+                        <span class="mai-face"></span>
+                    </div>
+                    <p><span>Skincare</span> Specialists</p>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card-service wow fadeInUp">
+                    <div class="circle-shape bg-accent text-white">
+                        <span class="mai-nail-polish"></span>
+                    </div>
+                    <p><span>Nail</span> Care Experts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- .page-section -->
 
         <div class="page-section pb-0">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 py-3 wow fadeInUp">
-                        <h1>Welcome to Your Health <br> Center</h1>
-                        <p class="text-grey mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut optio facilis!</p>
-                        <a href="about.html" class="btn btn-primary">Learn More</a>
+                    <h1>Welcome to our Beauty <br> Center</h1>
+                    <p class="text-grey mb-4">Indulge in a world of beauty and wellness.Discover the art of self-care with our expert team of specialists.Unveil the art of self-care with the guidance of our skilled and passionate team of specialists. Each visit is an opportunity to enhance your natural beauty and revitalize your spirit. Whether it's a revitalizing facial, a stunning hairstyle, or a soothing massage, we are dedicated to providing you with the utmost care and expertise.</p>
+                    <a href="about.html" class="btn btn-primary">Learn More</a>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
                         <div class="img-place custom-img-1">
-                            <img src="../assets/img/bg-doctor.png" alt="">
+                            <img src="../assets/img/banner-img.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -173,37 +174,41 @@
     <footer class="page-footer">
         <div class="container">
             <div class="row px-md-3">
-                <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>Company</h5>
-                    <ul class="footer-menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Editorial Team</a></li>
-                        <li><a href="#">Protection</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>More</h5>
-                    <ul class="footer-menu">
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Advertise</a></li>
-                        <li><a href="#">Join as Doctors</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>Our partner</h5>
-                    <ul class="footer-menu">
-                        <li><a href="#">One-Fitness</a></li>
-                        <li><a href="#">One-Drugs</a></li>
-                        <li><a href="#">One-Live</a></li>
-                    </ul>
-                </div>
+            <div class="col-sm-6 col-lg-3 py-3">
+    <h5>Discover</h5>
+    <ul class="footer-menu">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Team</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Career</a></li>
+    </ul>
+</div>
+
+<div class="col-sm-6 col-lg-3 py-3">
+    <h5>Explore</h5>
+    <ul class="footer-menu">
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Special Offers</a></li>
+        <li><a href="#">Beauty Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+</div>
+
+<div class="col-sm-6 col-lg-3 py-3">
+    <h5>Connect</h5>
+    <ul class="footer-menu">
+        <li><a href="#">Follow Us</a></li>
+        <li><a href="#">Join Our Newsletter</a></li>
+        <li><a href="#">Gift Cards</a></li>
+        <li><a href="#">Book an Appointment</a></li>
+    </ul>
+</div>
+
                 <div class="col-sm-6 col-lg-3 py-3">
                     <h5>Contact</h5>
                     <p class="footer-link mt-2">351 Willow Street Franklin, MA 02038</p>
                     <a href="#" class="footer-link">701-573-7582</a>
-                    <a href="#" class="footer-link">healthcare@temporary.net</a>
+                    <a href="#" class="footer-link">beautyCenter@gmail.com</a>
 
                     <h5 class="mt-3">Social Media</h5>
                     <div class="footer-sosmed mt-3">
@@ -218,7 +223,7 @@
 
             <hr>
 
-            <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">MACode ID</a>. All right reserved</p>
+            <p id="copyright">Copyright &copy; 2024 <a href="https://macodeid.com/" target="_blank">Beauty Center</a>. All right reserved</p>
         </div>
     </footer>
 
