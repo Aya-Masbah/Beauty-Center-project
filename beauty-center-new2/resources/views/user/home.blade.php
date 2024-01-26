@@ -9,7 +9,7 @@
 
     <meta name="copyright" content="MACode ID, https://macodeid.com/">
 
-    <title>Beauty Center</title>
+    <title>Bella Jessica Beauty Lounge</title>
 
     <link rel="stylesheet" href="../assets/css/maicons.css">
 
@@ -20,6 +20,18 @@
     <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
 
     <link rel="stylesheet" href="../assets/css/theme.css">
+
+    <style>
+        .navbar-brand img {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: -1px;
+            /* Adjust this value to position the logo */
+            top: -40px;
+            /* Adjust this value to position the logo */
+        }
+    </style>
 </head>
 
 <body>
@@ -28,31 +40,12 @@
     <div class="back-to-top"></div>
 
     <header>
-        <div class="topbar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 text-sm">
-                        <div class="site-info">
-                            <a href="#"><span class="mai-call text-primary"></span> +00 123 4455 6666</a>
-                            <span class="divider">|</span>
-                            <a href="#"><span class="mai-mail text-primary"></span> beautyCenter@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="col-sm-4 text-right text-sm">
-                        <div class="social-mini-button">
-                            <a href="#"><span class="mai-logo-facebook-f"></span></a>
-                            <a href="#"><span class="mai-logo-twitter"></span></a>
-                            <a href="#"><span class="mai-logo-dribbble"></span></a>
-                            <a href="#"><span class="mai-logo-instagram"></span></a>
-                        </div>
-                    </div>
-                </div> <!-- .row -->
-            </div> <!-- .container -->
-        </div> <!-- .topbar -->
-
         <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="#"><span class="text-primary">Beauty</span>-Center</a>
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/img/logo.png" alt="Bella Jessica Logo">
+                </a>
+                <a class="navbar-brand" href="#"><span class="text-primary">Bella Jessica</span>-Beauty Lounge</a>
 
                 <form action="#">
                     <div class="input-group input-navbar">
@@ -86,7 +79,9 @@
                         </li>
                         @if(Route::has('login'))
                         @auth
-                        <h1>user is logged in</h1>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('myappointment')}}">Appointment</a>
+                        </li>
                         <x-app-layout>
                         </x-app-layout>
                         @else
@@ -105,25 +100,44 @@
         </nav>
     </header>
 
-    <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bg_image_1.jpg);">
+    <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bg_image_1.webp);">
         <div class="hero-section">
             <div class="container text-center wow zoomIn">
-            <span class="subhead">Revel in Beauty and Wellness</span>
-            <h1 class="display-4">Discover Your Radiant Self</h1>
-            <a href="#" class="btn btn-primary">Consult with Our Experts</a>
+                <span class="subhead">Embark on a journey to enhance your beauty</span>
+                <h1 class="display-4">Elegance Redefined</h1>
+                <a href="#" class="btn btn-primary">Make an Appointment</a>
             </div>
         </div>
     </div>
 
 
     <div class="bg-light">
-    <div class="page-section py-3 mt-md-n5 custom-index">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-4 py-3 py-md-0">
-                <div class="card-service wow fadeInUp">
-                    <div class="circle-shape bg-secondary text-white">
-                        <span class="mai-scissors"></span>
+        <div class="page-section py-3 mt-md-n5 custom-index">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card-service wow fadeInUp">
+                            <div class="circle-shape bg-secondary text-white">
+                                <span class="mai-chatbubbles-outline"></span>
+                            </div>
+                            <p><span>Expert</span> Stylists</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card-service wow fadeInUp">
+                            <div class="circle-shape bg-primary text-white">
+                                <span class="mai-shield-checkmark"></span>
+                            </div>
+                            <p><span>Relaxing</span> Spa Treatments</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-3 py-md-0">
+                        <div class="card-service wow fadeInUp">
+                            <div class="circle-shape bg-accent text-white">
+                                <span class="mai-basket"></span>
+                            </div>
+                            <p><span>Professional</span> Makeup Artists</p>
+                        </div>
                     </div>
                     <p><span>Beauty</span> Services</p>
                 </div>
@@ -153,13 +167,13 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6 py-3 wow fadeInUp">
-                    <h1>Welcome to our Beauty <br> Center</h1>
-                    <p class="text-grey mb-4">Indulge in a world of beauty and wellness.Discover the art of self-care with our expert team of specialists.Unveil the art of self-care with the guidance of our skilled and passionate team of specialists. Each visit is an opportunity to enhance your natural beauty and revitalize your spirit. Whether it's a revitalizing facial, a stunning hairstyle, or a soothing massage, we are dedicated to providing you with the utmost care and expertise.</p>
-                    <a href="about.html" class="btn btn-primary">Learn More</a>
+                        <h1>Welcome to Our Beauty <br> Sanctuary</h1>
+                        <p class="text-grey mb-4">Indulge yourself in a world of beauty and relaxation. Our skilled professionals are dedicated to providing a rejuvenating experience, making you look and feel your best. Discover the art of self-care and enhance your natural beauty with us!</p>
+                        <a href="about.html" class="btn btn-primary">Learn More</a>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
                         <div class="img-place custom-img-1">
-                            <img src="../assets/img/banner-img.png" alt="">
+                            <img src="../assets/img/bg-employee.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -167,7 +181,7 @@
         </div> <!-- .bg-light -->
     </div> <!-- .bg-light -->
 
-    @include('user.doctor')
+    @include('user.employee')
     @include('user.latest')
     @include('user.appointment')
 
