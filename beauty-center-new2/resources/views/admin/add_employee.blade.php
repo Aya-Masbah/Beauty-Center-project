@@ -85,14 +85,38 @@
                     </div>
                     <div class="form-group">
                         <label class="form-label" for="service">Service:</label>
-                        <select id="service" name="service" class="form-control" style="background-color: white; color:black;" required>
+                        <select id="service" name="service" class="form-control" style="background-color: white; color: black;" required>
                             <option value="">--Select--</option>
                             <option value="haircut">Haircut</option>
-                            <option value="manicure">Manicure</option>
-                            <option value="makeup">Makeup</option>
-                            <option value="massage">Massage</option>
+                            <option value="styling">Styling</option>
+                            <option value="coloring">Coloring</option>
+                            <option value="extensions">Extensions</option>
+                            <option value="texture-treatments">Texture and Treatments</option>
+                            <option value="facials">Facials</option>
+                            <option value="skin-rejuvenation">Skin Rejuvenation</option>
+                            <option value="peels">Peels</option>
+                            <option value="microdermabrasion">Microdermabrasion</option>
+                            <option value="waxing">Waxing</option>
+                            <option value="bridal-makeup">Bridal Makeup</option>
+                            <option value="special-occasion-makeup">Special Occasion Makeup</option>
+                            <option value="everyday-makeup">Everyday Makeup</option>
+                            <option value="makeup-lessons">Makeup Lessons</option>
+                            <option value="manicures">Manicures</option>
+                            <option value="pedicures">Pedicures</option>
+                            <option value="nail-art">Nail Art</option>
+                            <option value="gel-acrylic-nails">Gel and Acrylic Nails</option>
+                            <option value="customized-skin-analysis">Customized Skin Analysis</option>
+                            <option value="anti-aging-treatments">Anti-Aging Treatments</option>
+                            <option value="acne-treatments">Acne Treatments</option>
+                            <option value="moisturizing-hydrating-treatments">Moisturizing and Hydrating Treatments</option>
+                            <option value="full-body-massage">Full Body Massage</option>
+                            <option value="aromatherapy">Aromatherapy</option>
+                            <option value="hot-stone-massage">Hot Stone Massage</option>
+                            <option value="reflexology">Reflexology</option>
+                            <!-- Add more options based on your salon's services -->
                         </select>
                     </div>
+
                     <div class="form-group">
                         <label class="form-label" for="file">Employee Image:</label>
                         <input type="file" content="Choose file" class="form-control" style="background-color: white; color:black;" id="file" name="file" required>

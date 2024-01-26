@@ -10,13 +10,13 @@
 :root {
     --primary: #c5aded;
     --accent: #edb4ed;
-    --secondary: #b9dcfe;
+    --secondary: #edf3fd;
     --warning: #eed818;
     --info: #05b4e1;
     --danger: #ff4943;
     --success: #96c93d;
     --dark: #343531;
-    --light: #b9dcfe;
+    --light: #edf3fd;
     --cs: #596261;
     --grey: #6e807a;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 a {
-    color: #07be94;
+    color: #edb4ed;
     text-decoration: none;
     background-color: transparent;
 }
@@ -65,7 +65,7 @@ a:hover {
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-    background-color: #07be94 !important;
+    background-color: #edb4ed !important;
 }
 
 .bg-accent {
@@ -78,7 +78,7 @@ a.bg-accent:focus {
 }
 
 .bg-secondary {
-    background-color: #b9dcfe !important;
+    background-color: #bce0ff !important;
 }
 
 a.bg-secondary:hover,
@@ -132,7 +132,7 @@ a.bg-grey:focus {
 }
 
 .bg-light {
-    background-color: #b9dcfe !important;
+    background-color: #edf3fd !important;
 }
 
 a.bg-light:hover,
@@ -155,7 +155,7 @@ a.bg-dark:focus {
 
 a.text-primary:hover,
 a.text-primary:focus {
-    color: #07be94 !important;
+    color: #edb4ed !important;
 }
 
 .text-accent {
@@ -168,7 +168,7 @@ a.text-accent:focus {
 }
 
 .text-secondary {
-    color: #b9dcfe !important;
+    color: #edf3fd !important;
 }
 
 a.text-secondary:hover,
@@ -222,7 +222,7 @@ a.text-grey:focus {
 }
 
 .text-light {
-    color: #b9dcfe !important;
+    color: #edf3fd !important;
 }
 
 a.text-light:hover,
@@ -272,7 +272,7 @@ a.text-dark:focus {
 }
 
 .border-light {
-    border-color: #b9dcfe !important;
+    border-color: #edf3fd !important;
 }
 
 .border-dark {
@@ -289,7 +289,7 @@ a.text-dark:focus {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #07be94;
+    background-color: #edb4ed;
     border-color: transparent;
 }
 
@@ -298,7 +298,7 @@ a.text-dark:focus {
 .show > .btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #c5aded;
-    border-color: #07be94;
+    border-color: #edb4ed;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
@@ -336,7 +336,7 @@ a.text-dark:focus {
 
 .btn-secondary {
     color: #fff;
-    background-color: #b9dcfe;
+    background-color: #edf3fd;
     border-color: transparent;
 }
 
@@ -351,7 +351,7 @@ a.text-dark:focus {
 .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #b9dcfe;
+    background-color: #edf3fd;
     border-color: #3d49f0;
 }
 
@@ -471,7 +471,7 @@ a.text-dark:focus {
 
 .btn-light {
     color: #343531;
-    background-color: #b9dcfe;
+    background-color: #edf3fd;
     border-color: transparent;
 }
 
@@ -500,7 +500,7 @@ a.text-dark:focus {
 .btn-light:not(:disabled):not(.disabled).active,
 .show > .btn-light.dropdown-toggle {
     color: #343531;
-    background-color: #b9dcfe;
+    background-color: #edf3fd;
     border-color: #d0ddd9;
 }
 
@@ -645,14 +645,14 @@ a.text-dark:focus {
 }
 
 .btn-outline-secondary {
-    color: #b9dcfe;
-    border-color: #b9dcfe;
+    color: #edf3fd;
+    border-color: #edf3fd;
 }
 
 .btn-outline-secondary:hover {
     color: #fff;
-    background-color: #b9dcfe;
-    border-color: #b9dcfe;
+    background-color: #edf3fd;
+    border-color: #edf3fd;
 }
 
 .btn-outline-secondary:focus,
@@ -662,7 +662,7 @@ a.text-dark:focus {
 
 .btn-outline-secondary.disabled,
 .btn-outline-secondary:disabled {
-    color: #b9dcfe;
+    color: #edf3fd;
     background-color: transparent;
 }
 
@@ -670,8 +670,8 @@ a.text-dark:focus {
 .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
     color: #fff;
-    background-color: #b9dcfe;
-    border-color: #b9dcfe;
+    background-color: #edf3fd;
+    border-color: #edf3fd;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus,
@@ -825,14 +825,14 @@ a.text-dark:focus {
 }
 
 .btn-outline-light {
-    color: #b9dcfe;
-    border-color: #b9dcfe;
+    color: #edf3fd;
+    border-color: #edf3fd;
 }
 
 .btn-outline-light:hover {
     color: #343531;
-    background-color: #b9dcfe;
-    border-color: #b9dcfe;
+    background-color: #edf3fd;
+    border-color: #edf3fd;
 }
 
 .btn-outline-light:focus,
@@ -842,7 +842,7 @@ a.text-dark:focus {
 
 .btn-outline-light.disabled,
 .btn-outline-light:disabled {
-    color: #b9dcfe;
+    color: #edf3fd;
     background-color: transparent;
 }
 
@@ -850,8 +850,8 @@ a.text-dark:focus {
 .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
     color: #343531;
-    background-color: #b9dcfe;
-    border-color: #b9dcfe;
+    background-color: #edf3fd;
+    border-color: #edf3fd;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active:focus,
@@ -898,7 +898,7 @@ a.text-dark:focus {
 
 .btn-link {
     font-weight: 400;
-    color: #07be94;
+    color: #edb4ed;
     text-decoration: none;
 }
 
@@ -972,7 +972,7 @@ a.text-dark:focus {
 }
 
 .breadcrumb-dark .breadcrumb-item a:hover {
-    color: #07be94;
+    color: #edb4ed;
     text-decoration: none;
 }
 
@@ -1513,7 +1513,7 @@ a.text-dark:focus {
     display: inline-block;
     padding: 4px 8px;
     font-size: 12px;
-    background-color: #b9dcfe;
+    background-color: #edb4ed;
     color: #fff;
     border-radius: 40px;
 }
@@ -1530,7 +1530,7 @@ a.text-dark:focus {
 .card-blog .post-title:hover,
 .card-blog .post-title a:hover {
     text-decoration: none;
-    color: #07be94;
+    color: #edb4ed;
 }
 
 .card-blog .site-info {
@@ -1585,7 +1585,7 @@ a.text-dark:focus {
 }
 
 .blog-details .post-meta a:hover {
-    color: #07be94;
+    color: #edb4ed;
     text-decoration: none;
 }
 
@@ -1611,7 +1611,7 @@ a.text-dark:focus {
 
 .blog-details .post-tags a:hover {
     text-decoration: none;
-    background-color: #07be94;
+    background-color: #edb4ed;
     color: #fff;
 }
 
@@ -1663,7 +1663,7 @@ a.text-dark:focus {
 }
 
 .search-form .btn:hover {
-    background-color: #07be94;
+    background-color: #edb4ed;
 }
 
 .categories {
@@ -1737,7 +1737,7 @@ a.text-dark:focus {
 }
 
 .blog-item .post-title a:hover {
-    color: #07be94;
+    color: #edb4ed;
     text-decoration: none;
 }
 
@@ -1772,8 +1772,8 @@ a.text-dark:focus {
 .tag-cloud-link:focus {
     text-decoration: none;
     background-color: #f8f9fa;
-    color: #07be94;
-    border-color: #07be94;
+    color: #edb4ed;
+    border-color: #edb4ed;
 }
 
 .main-form {
@@ -1806,7 +1806,7 @@ a.text-dark:focus {
     display: block;
     padding-top: 80px;
     padding-bottom: 16px;
-    background-color: #2d3b38;
+    background-color: #c5aded;
     color: #fff;
 }
 
