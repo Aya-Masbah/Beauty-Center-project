@@ -72,7 +72,7 @@
                             <a class="nav-link" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="doctors.html">Employees</a>
+                            <a class="nav-link" href="doctors.html">Specialists</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="blog.html">News</a>
@@ -142,9 +142,27 @@
                             <p><span>Professional</span> Makeup Artists</p>
                         </div>
                     </div>
+                    <p><span>Beauty</span> Services</p>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card-service wow fadeInUp">
+                    <div class="circle-shape bg-primary text-white">
+                        <span class="mai-face"></span>
+                    </div>
+                    <p><span>Skincare</span> Specialists</p>
+                </div>
+            </div>
+            <div class="col-md-4 py-3 py-md-0">
+                <div class="card-service wow fadeInUp">
+                    <div class="circle-shape bg-accent text-white">
+                        <span class="mai-nail-polish"></span>
+                    </div>
+                    <p><span>Nail</span> Care Experts</p>
                 </div>
             </div>
         </div> <!-- .page-section -->
+
         <div class="page-section pb-0">
             <div class="container">
                 <div class="row align-items-center">
@@ -171,36 +189,40 @@
         <div class="container">
             <div class="row px-md-3">
                 <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>Company</h5>
+                    <h5>Discover</h5>
                     <ul class="footer-menu">
                         <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Testimonials</a></li>
                         <li><a href="#">Career</a></li>
-                        <li><a href="#">Editorial Team</a></li>
-                        <li><a href="#">Protection</a></li>
                     </ul>
                 </div>
+
                 <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>More</h5>
+                    <h5>Explore</h5>
                     <ul class="footer-menu">
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy</a></li>
-                        <li><a href="#">Advertise</a></li>
-                        <li><a href="#">Join as Doctors</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">Beauty Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
                     </ul>
                 </div>
+
                 <div class="col-sm-6 col-lg-3 py-3">
-                    <h5>Our partner</h5>
+                    <h5>Connect</h5>
                     <ul class="footer-menu">
-                        <li><a href="#">One-Fitness</a></li>
-                        <li><a href="#">One-Drugs</a></li>
-                        <li><a href="#">One-Live</a></li>
+                        <li><a href="#">Follow Us</a></li>
+                        <li><a href="#">Join Our Newsletter</a></li>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Book an Appointment</a></li>
                     </ul>
                 </div>
+
                 <div class="col-sm-6 col-lg-3 py-3">
                     <h5>Contact</h5>
                     <p class="footer-link mt-2">351 Willow Street Franklin, MA 02038</p>
                     <a href="#" class="footer-link">701-573-7582</a>
-                    <a href="#" class="footer-link">healthcare@temporary.net</a>
+                    <a href="#" class="footer-link">beautyCenter@gmail.com</a>
 
                     <h5 class="mt-3">Social Media</h5>
                     <div class="footer-sosmed mt-3">
@@ -215,7 +237,7 @@
 
             <hr>
 
-            <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">MACode ID</a>. All right reserved</p>
+            <p id="copyright">Copyright &copy; 2024 <a href="https://macodeid.com/" target="_blank">Beauty Center</a>. All right reserved</p>
         </div>
     </footer>
 
